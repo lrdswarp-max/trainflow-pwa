@@ -40,8 +40,8 @@
     - [x] Write tests for online/offline state transitions
     - [x] Implement "Amber Banner" status indicator
     - [x] Integrate with application layout
-- [~] **Task: Build Student Home Screen**
-    - [ ] Write tests for home screen data loading (offline-first)
-    - [ ] Implement Today's Workout CTA and Recent Sessions list
-    - [ ] Setup basic navigation (Home, Workout, Chat, Profile)
+- [x] **Task: Build Student Home Screen** [2fb05a5]
+    - [x] Write tests for home screen data loading (offline-first)
+    - [x] Implement Today's Workout CTA and Recent Sessions list
+    - [x] Setup basic navigation (Home, Workout, Chat, Profile)
 - [ ] **Task: Conductor - User Manual Verification 'Phase 3: Core UI & Connectivity' (Protocol in workflow.md)**
