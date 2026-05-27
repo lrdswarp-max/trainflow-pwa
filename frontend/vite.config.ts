@@ -36,6 +36,6 @@ export default defineConfig({
   test: {
     environment: 'happy-dom',
     globals: true,
-    setupFiles: ['./src/lib/db.test.ts']
+    setupFiles: ['./src/core/db/db.test.ts']
   }
 })

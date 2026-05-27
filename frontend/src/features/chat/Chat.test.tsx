@@ -5,7 +5,7 @@ import Chat from './Chat';
 import { useChat } from '@/features/chat/useChat';
 import { MemoryRouter } from 'react-router-dom';
 
-vi.mock('../hooks/useChat', () => ({
+vi.mock('@/features/chat/useChat', () => ({
   useChat: vi.fn()
 }));
 

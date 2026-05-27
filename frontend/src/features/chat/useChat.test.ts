@@ -5,7 +5,7 @@ import { useChat } from './useChat';
 import { db } from '@/core/db/db';
 import { useNetworkStatus } from '@/shared/hooks/useNetworkStatus';
 
-vi.mock('./useNetworkStatus', () => ({
+vi.mock('@/shared/hooks/useNetworkStatus', () => ({
   useNetworkStatus: vi.fn(),
 }));
 
