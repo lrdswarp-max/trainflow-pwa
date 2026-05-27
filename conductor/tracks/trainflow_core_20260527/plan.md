@@ -26,11 +26,11 @@
 - [x] **Task: Implement JWT Authentication & Role Detection (Backend)** [81441d5]
     - [x] Write tests for token verification and role-based access
     - [x] Implement JWT middleware and dependency injection
-- [ ] **Task: Implement Authentication Flow (Frontend)**
-    - [ ] Write tests for login form and magic link handling
-    - [ ] Build the Student Login Screen (Premium Design)
-    - [ ] Implement Trainer entry "quiet link"
-    - [ ] Handle magic link redirection and token storage
+- [x] **Task: Implement Authentication Flow (Frontend)** [168affb]
+    - [x] Write tests for login form and magic link handling
+    - [x] Build the Student Login Screen (Premium Design)
+    - [x] Implement Trainer entry "quiet link"
+    - [x] Handle magic link redirection and token storage
 - [ ] **Task: Conductor - User Manual Verification 'Phase 2: Authentication & Role Management' (Protocol in workflow.md)**
 
 ## Phase 3: Core UI & Connectivity
