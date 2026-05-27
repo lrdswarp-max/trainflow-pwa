@@ -1,10 +1,10 @@
 # Implementation Plan: Workout Player & Exercise Execution
 
-## Phase 1: Foundation & Data Models
-- [ ] Task: Define TypeScript interfaces for Workout, Exercise, and Set logs in `src/types/workout.ts`.
-- [ ] Task: Update Dexie.js schema in `src/lib/db.ts` to include offline storage for active workouts and set logs.
-- [ ] Task: Create custom hooks (`useWorkoutPlayer`, `useOfflineSync`) to manage player state and IndexedDB interactions.
-- [ ] Task: Conductor - User Manual Verification 'Phase 1 Foundation' (Protocol in workflow.md)
+## Phase 1: Foundation & Data Models [checkpoint: 679625d]
+- [x] Task: Define TypeScript interfaces for Workout, Exercise, and Set logs in `src/types/workout.ts`.
+- [x] Task: Update Dexie.js schema in `src/lib/db.ts` to include offline storage for active workouts and set logs.
+- [x] Task: Create custom hooks (`useWorkoutPlayer`, `useOfflineSync`) to manage player state and IndexedDB interactions.
+- [x] Task: Conductor - User Manual Verification 'Phase 1 Foundation' (Protocol in workflow.md)
 
 ## Phase 2: Media Preloading & Haptics Engine
 - [ ] Task: Implement `MediaPreloader` utility to fetch and cache GIFs/Audio in the background.
