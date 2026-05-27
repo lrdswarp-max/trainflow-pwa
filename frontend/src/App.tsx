@@ -3,6 +3,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Login } from './pages/Login';
 import { HomeView } from './pages/Home';
 import { NetworkBanner } from './components/NetworkBanner';
+import { Dashboard } from './pages/trainer/Dashboard';
 import './App.css';
 
 const queryClient = new QueryClient();
@@ -17,6 +18,7 @@ export function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/" element={<Navigate to="/login" replace />} />
             <Route path="/home" element={<HomeView />} />
+            <Route path="/trainer/dashboard" element={<Dashboard />} />
           </Routes>
         </Router>
       </div>

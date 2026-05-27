@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useMutation } from '@tanstack/react-query';
-import { useSearchParams, useNavigate } from 'react-router-dom';
+import { useSearchParams, useNavigate, Link } from 'react-router-dom';
 import { api } from '../api/client';
 import { Loader2, Send, CheckCircle2 } from 'lucide-react';
 
@@ -143,12 +143,12 @@ export function Login() {
         </form>
 
         <div className="mt-12 text-center">
-          <a 
-            href="/trainer-login" 
+          <Link 
+            to="/trainer/dashboard" 
             className="text-sm font-medium text-white/30 hover:text-white/60 transition-colors"
           >
             Trainer access
-          </a>
+          </Link>
         </div>
       </div>
       
