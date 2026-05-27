@@ -1,5 +1,8 @@
 fastapi
 uvicorn
 pydantic-settings
+email-validator
 pytest
 httpx
+pytest-asyncio
+pytest-cov
