@@ -4,9 +4,9 @@
 
 ### Task: Project Environment Setup
 - [x] **Task: Initialize Frontend (React + Vite + TypeScript)** (Manual config due to npm issues) [058d768]
-    - [ ] Setup Vite project with React and TypeScript
-    - [ ] Install and configure Tailwind CSS and Shadcn UI
-    - [ ] Configure `vite-plugin-pwa` for manifest and service worker
+    - [x] Setup Vite project with React and TypeScript
+    - [x] Install and configure Tailwind CSS and Shadcn UI
+    - [x] Configure `vite-plugin-pwa` for manifest and service worker [eb61c25]
 - [x] **Task: Initialize Backend (FastAPI)** [49788db]
     - [x] Setup FastAPI project structure
     - [x] Configure Uvicorn and basic environment variables

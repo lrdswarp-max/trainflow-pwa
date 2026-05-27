@@ -37,12 +37,10 @@ describe('useNetworkStatus', () => {
 
   it('should update status when going offline', () => {
     mockNavigator(true);
-    let onlineCallback: () => void = () => {};
     let offlineCallback: () => void = () => {};
 
     vi.stubGlobal('window', {
       addEventListener: vi.fn((event, callback) => {
-        if (event === 'online') onlineCallback = callback;
         if (event === 'offline') offlineCallback = callback;
       }),
       removeEventListener: vi.fn(),
