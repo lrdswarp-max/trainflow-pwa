@@ -19,10 +19,10 @@
 ## Phase 2: Authentication & Role Management
 
 ### Task: Backend Authentication Logic
-- [ ] **Task: Implement Magic Link Generation (Backend)**
-    - [ ] Write tests for token generation and email sending logic
-    - [ ] Implement token generation and secure storage
-    - [ ] Setup mock email service (or integration)
+- [x] **Task: Implement Magic Link Generation (Backend)** [8fc8fa3]
+    - [x] Write tests for token generation and email sending logic
+    - [x] Implement token generation and secure storage
+    - [x] Setup mock email service (or integration)
 - [ ] **Task: Implement JWT Authentication & Role Detection (Backend)**
     - [ ] Write tests for token verification and role-based access
     - [ ] Implement JWT middleware and dependency injection
