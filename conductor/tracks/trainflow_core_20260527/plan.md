@@ -10,10 +10,10 @@
 - [x] **Task: Initialize Backend (FastAPI)** [49788db]
     - [x] Setup FastAPI project structure
     - [x] Configure Uvicorn and basic environment variables
-- [ ] **Task: Setup Offline Storage (Dexie.js)**
-    - [ ] Install Dexie.js
-    - [ ] Define initial database schema (Users, Workouts)
-    - [ ] Implement database initialization and health check
+- [x] **Task: Setup Offline Storage (Dexie.js)** [b795a53]
+    - [x] Install Dexie.js
+    - [x] Define initial database schema (Users, Workouts)
+    - [x] Implement database initialization and health check
 - [ ] **Task: Conductor - User Manual Verification 'Phase 1: Project Scaffolding & Foundation' (Protocol in workflow.md)**
 
 ## Phase 2: Authentication & Role Management
