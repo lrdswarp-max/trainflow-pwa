@@ -8,6 +8,6 @@
 - [x] Task: Create `useChat` hook to manage the WebSocket connection, send messages, and receive real-time updates. 8d72b53
 - [x] Task: If offline, the hook intercepts the send action and saves it to the local IndexedDB queue with a "pending" status. 8d72b53
 
-## Phase 3: Chat User Interface
-- [ ] Task: Build the `Chat` view for both Students and Trainers.
-- [ ] Task: Design the message bubbles (Accent color for sent, Dark surface for received) and visual indicators.
+## Phase 3: Chat User Interface [checkpoint: 53f04ee]
+- [x] Task: Build the `Chat` view for both Students and Trainers. 77fd30d
+- [x] Task: Design the message bubbles (Accent color for sent, Dark surface for received) and visual indicators. 77fd30d
