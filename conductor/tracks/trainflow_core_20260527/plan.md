@@ -40,7 +40,7 @@
     - [x] Write tests for online/offline state transitions
     - [x] Implement "Amber Banner" status indicator
     - [x] Integrate with application layout
-- [ ] **Task: Build Student Home Screen**
+- [~] **Task: Build Student Home Screen**
     - [ ] Write tests for home screen data loading (offline-first)
     - [ ] Implement Today's Workout CTA and Recent Sessions list
     - [ ] Setup basic navigation (Home, Workout, Chat, Profile)
