@@ -6,7 +6,7 @@
 - [x] Task: Create custom hooks (`useWorkoutPlayer`, `useOfflineSync`) to manage player state and IndexedDB interactions.
 - [x] Task: Conductor - User Manual Verification 'Phase 1 Foundation' (Protocol in workflow.md)
 
-## Phase 2: Media Preloading & Haptics Engine
+## Phase 2: Media Preloading & Haptics Engine [checkpoint: d1edfcf]
 - [x] Task: Implement `MediaPreloader` utility to fetch and cache GIFs/Audio in the background.
 - [x] Task: Create a `useHaptics` hook for vibration API interactions (timer alerts, set completion).
 - [x] Task: Conductor - User Manual Verification 'Phase 2 Media & Haptics' (Protocol in workflow.md)
