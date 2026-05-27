@@ -3,7 +3,7 @@
 ## Phase 1: Project Scaffolding & Foundation
 
 ### Task: Project Environment Setup
-- [x] **Task: Initialize Frontend (React + Vite + TypeScript)** (Manual config due to npm issues)
+- [x] **Task: Initialize Frontend (React + Vite + TypeScript)** (Manual config due to npm issues) [058d768]
     - [ ] Setup Vite project with React and TypeScript
     - [ ] Install and configure Tailwind CSS and Shadcn UI
     - [ ] Configure `vite-plugin-pwa` for manifest and service worker
