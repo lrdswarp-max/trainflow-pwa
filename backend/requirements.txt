@@ -8,3 +8,5 @@ pytest
 httpx
 pytest-asyncio
 pytest-cov
+gunicorn
+uvicorn[standard]
