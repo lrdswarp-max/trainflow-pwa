@@ -14,5 +14,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [ ] **Track: Trainer Experience: Dashboard & Workout Builder**
+- [x] **Track: Trainer Experience: Dashboard & Workout Builder**
   *Link: [./tracks/trainer_experience_20260527/](./tracks/trainer_experience_20260527/)*
