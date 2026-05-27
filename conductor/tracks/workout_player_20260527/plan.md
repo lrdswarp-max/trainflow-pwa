@@ -7,9 +7,9 @@
 - [x] Task: Conductor - User Manual Verification 'Phase 1 Foundation' (Protocol in workflow.md)
 
 ## Phase 2: Media Preloading & Haptics Engine
-- [ ] Task: Implement `MediaPreloader` utility to fetch and cache GIFs/Audio in the background.
-- [ ] Task: Create a `useHaptics` hook for vibration API interactions (timer alerts, set completion).
-- [ ] Task: Conductor - User Manual Verification 'Phase 2 Media & Haptics' (Protocol in workflow.md)
+- [x] Task: Implement `MediaPreloader` utility to fetch and cache GIFs/Audio in the background.
+- [x] Task: Create a `useHaptics` hook for vibration API interactions (timer alerts, set completion).
+- [x] Task: Conductor - User Manual Verification 'Phase 2 Media & Haptics' (Protocol in workflow.md)
 
 ## Phase 3: Core UI Components
 - [ ] Task: Build `ProgressRing` component using SVG for visual progression.
