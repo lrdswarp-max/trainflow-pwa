@@ -1,6 +1,6 @@
 # Implementation Plan: Chat
 
-## Phase 1: Database & Offline Queue Infrastructure
+## Phase 1: Database & Offline Queue Infrastructure [checkpoint: 17dbf82]
 - [x] Task: Extend the `db.ts` schema to include `messages` and `pending_messages` (offline queue). 29dfce5
 - [x] Task: Implement a `useChatSync` hook that checks network status and flushes pending messages when online. 29dfce5
 
