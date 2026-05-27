@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useMutation } from '@tanstack/react-query';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import api from '../api/client';
+import { api } from '../api/client';
 import { Loader2, Send, CheckCircle2 } from 'lucide-react';
 
-export const Login: React.FC = () => {
+export function Login() {
   const [email, setEmail] = useState('');
   const [sent, setSent] = useState(false);
   const [searchParams] = useSearchParams();
@@ -157,4 +157,4 @@ export const Login: React.FC = () => {
       </p>
     </div>
   );
-};
+}

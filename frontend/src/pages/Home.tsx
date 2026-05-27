@@ -1,7 +1,7 @@
 import React from 'react';
 import { Play, Clock, Calendar, MessageSquare, User, Home } from 'lucide-react';
 
-export const HomeView: React.FC = () => {
+export function HomeView() {
   // Mock data for now, will be connected to Dexie.js in future tasks
   const recentSessions = [
     { id: 1, name: 'Upper Body Power', date: '2 days ago', duration: '45 min' },
@@ -82,4 +82,4 @@ export const HomeView: React.FC = () => {
       </nav>
     </div>
   );
-};
+}

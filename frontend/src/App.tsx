@@ -7,7 +7,7 @@ import './App.css';
 
 const queryClient = new QueryClient();
 
-function App() {
+export function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <div className="min-h-screen flex flex-col bg-[#1A1F3A]">
@@ -23,5 +23,3 @@ function App() {
     </QueryClientProvider>
   );
 }
-
-export default App;

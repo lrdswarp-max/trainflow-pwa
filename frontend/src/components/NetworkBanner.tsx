@@ -2,7 +2,7 @@ import React from 'react';
 import { useNetworkStatus } from '../hooks/useNetworkStatus';
 import { WifiOff, AlertTriangle } from 'lucide-react';
 
-export const NetworkBanner: React.FC = () => {
+export function NetworkBanner() {
   const { isOnline } = useNetworkStatus();
 
   if (isOnline) return null;
@@ -17,4 +17,4 @@ export const NetworkBanner: React.FC = () => {
       <AlertTriangle className="w-5 h-5" />
     </div>
   );
-};
+}

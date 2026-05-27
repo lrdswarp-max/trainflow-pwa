@@ -3,11 +3,11 @@ import { render, screen, cleanup, fireEvent, waitFor } from '@testing-library/re
 import { Login } from './Login';
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import api from '../api/client';
+import { api } from '../api/client';
 
 // Mock the API client
 vi.mock('../api/client', () => ({
-  default: {
+  api: {
     post: vi.fn(),
     interceptors: {
       request: { use: vi.fn(), eject: vi.fn() },
