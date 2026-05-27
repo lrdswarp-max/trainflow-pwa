@@ -24,7 +24,13 @@ describe('RestTimerOverlay', () => {
     expect(screen.getByText('2')).toBeInTheDocument();
 
     act(() => {
-      vi.advanceTimersByTime(2000);
+      vi.advanceTimersByTime(1000);
+    });
+    act(() => {
+      vi.advanceTimersByTime(1000);
+    });
+    act(() => {
+      vi.advanceTimersByTime(1000);
     });
     
     expect(handleComplete).toHaveBeenCalled();

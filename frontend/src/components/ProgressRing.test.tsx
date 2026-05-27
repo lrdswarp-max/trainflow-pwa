@@ -17,6 +17,6 @@ describe('ProgressRing', () => {
     render(<ProgressRing progress={100} size={100} strokeWidth={10} />);
     const circle = screen.getByTestId('progress-ring-circle');
     // Assuming circumference calculation, 100% should have 0 offset
-    expect(circle).toHaveStyle({ strokeDashoffset: '0' });
+    expect(circle).toHaveAttribute('stroke-dashoffset', '0');
   });
 });
