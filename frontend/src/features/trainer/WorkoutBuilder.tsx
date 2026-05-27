@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { TrainerLayout } from '@/features/trainer/TrainerLayout';
 import { Plus, GripVertical, Save } from 'lucide-react';
 import type { Exercise } from '@/shared/types/workout';

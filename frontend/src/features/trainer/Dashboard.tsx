@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { TrainerLayout } from '@/features/trainer/TrainerLayout';
 import { Users, Activity } from 'lucide-react';
 

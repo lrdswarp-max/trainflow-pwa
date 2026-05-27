@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNetworkStatus } from '@/shared/hooks/useNetworkStatus';
 import { WifiOff, AlertTriangle } from 'lucide-react';
 

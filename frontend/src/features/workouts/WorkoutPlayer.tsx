@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useWorkoutPlayer } from '@/features/workouts/useWorkoutPlayer';
 import { SetLogger } from '@/features/workouts/SetLogger';
 import { RestTimerOverlay } from '@/features/workouts/RestTimerOverlay';

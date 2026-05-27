@@ -118,19 +118,21 @@ export default function Profile({ currentUserId = 1 }: { currentUserId?: number 
           </button>
         </form>
 
-        <div className="mt-12 pt-8 border-t border-white/10 text-center">
-          <p className="text-xs text-white/40 mb-4 uppercase tracking-widest">Developer Area</p>
-          <button 
-            onClick={async () => {
-              await seedDatabase();
-              alert('Mock data seeded! Refreshing...');
-              window.location.reload();
-            }}
-            className="text-xs font-mono bg-white/5 hover:bg-white/10 text-white/60 px-4 py-2 rounded-lg transition-colors"
-          >
-            🌱 Seed Database
-          </button>
-        </div>
+        {import.meta.env.DEV && (
+          <div className="mt-12 pt-8 border-t border-white/10 text-center">
+            <p className="text-xs text-white/40 mb-4 uppercase tracking-widest">Developer Area</p>
+            <button 
+              onClick={async () => {
+                await seedDatabase();
+                alert('Mock data seeded! Refreshing...');
+                window.location.reload();
+              }}
+              className="text-xs font-mono bg-white/5 hover:bg-white/10 text-white/60 px-4 py-2 rounded-lg transition-colors"
+            >
+              🌱 Seed Database
+            </button>
+          </div>
+        )}
       </main>
     </div>
   );

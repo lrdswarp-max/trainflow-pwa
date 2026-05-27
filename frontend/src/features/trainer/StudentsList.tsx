@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { TrainerLayout } from '@/features/trainer/TrainerLayout';
 import { InviteStudentModal } from '@/features/trainer/InviteStudentModal';
 import { UserPlus, MoreVertical, Mail } from 'lucide-react';

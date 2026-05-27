@@ -1,4 +1,4 @@
-import React from 'react';
+
 import type { Workout } from '@/shared/types/workout';
 
 interface WorkoutSummaryProps {

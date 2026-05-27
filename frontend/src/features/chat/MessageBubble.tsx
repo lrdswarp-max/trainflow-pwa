@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export const MessageBubble = ({ content, status, isOwn }: { content: string, status: string, isOwn: boolean }) => {
   return (

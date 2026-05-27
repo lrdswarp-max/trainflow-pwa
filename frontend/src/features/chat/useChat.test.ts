@@ -22,7 +22,11 @@ class MockWebSocket {
   constructor(url: string) {
     this.url = url;
     mockWsInstance = this;
-    setTimeout(() => this.onopen?.(), 10);
+    setTimeout(() => {
+      act(() => {
+        this.onopen?.();
+      });
+    }, 10);
   }
   send = vi.fn();
   close = vi.fn();
