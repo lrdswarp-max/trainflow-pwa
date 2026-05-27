@@ -2,6 +2,8 @@ fastapi
 uvicorn
 pydantic-settings
 email-validator
+PyJWT
+passlib
 pytest
 httpx
 pytest-asyncio
