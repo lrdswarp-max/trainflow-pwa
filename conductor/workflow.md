@@ -130,48 +130,48 @@ All tasks follow a strict lifecycle:
 
 9. **Commit Plan Update:**
     - **Action:** Stage the modified `plan.md` file.
-    - **Action:** Commit this change with a descriptive message following the format `conductor(plan): Mark phase '<PHASE NAME>' as complete`.
+    -   **Action:** Commit this change with a descriptive message following the format `conductor(plan): Mark phase '<PHASE NAME>' as complete`.
 
-10.  **Announce Completion:** Inform the user that the phase is complete and the checkpoint has been created, with the detailed verification report attached as a git note.
+    10.  **Announce Completion:** Inform the user that the phase is complete and the checkpoint has been created, with the detailed verification report attached as a git note.
 
-### Quality Gates
+    ### Quality Gates
 
-Before marking any task complete, verify:
+    Before marking any task complete, verify:
 
-- [ ] All tests pass
-- [ ] Code coverage meets requirements (>80%)
-- [ ] Code follows project's code style guidelines (as defined in `code_styleguides/`)
-- [ ] All public functions/methods are documented (e.g., docstrings, JSDoc, GoDoc)
-- [ ] Type safety is enforced (e.g., type hints, TypeScript types, Go types)
-- [ ] No linting or static analysis errors (using the project's configured tools)
-- [ ] Works correctly on mobile (if applicable)
-- [ ] Documentation updated if needed
-- [ ] No security vulnerabilities introduced
+    - [ ] All tests pass
+    - [ ] Code coverage meets requirements (>80%)
+    - [ ] Code follows project's code style guidelines (as defined in `code_styleguides/`)
+    - [ ] All public functions/methods are documented (e.g., docstrings, JSDoc, GoDoc)
+    - [ ] Type safety is enforced (e.g., type hints, TypeScript types, Go types)
+    - [ ] No linting or static analysis errors (using the project's configured tools)
+    - [ ] Works correctly on mobile (if applicable)
+    - [ ] Documentation updated if needed
+    - [ ] No security vulnerabilities introduced
 
-## Development Commands
+    ## Development Commands
 
-**AI AGENT INSTRUCTION: This section should be adapted to the project's specific language, framework, and build tools.**
+    **AI AGENT INSTRUCTION: This section should be adapted to the project's specific language, framework, and build tools.**
 
-### Setup
-```bash
-# Example: Commands to set up the development environment (e.g., install dependencies, configure database)
-# e.g., for a Node.js project: npm install
-# e.g., for a Go project: go mod tidy
-```
+    ### Setup
+    ```bash
+    # Example: Commands to set up the development environment (e.g., install dependencies, configure database)
+    # e.g., for a Node.js project: pnpm install
+    # e.g., for a Go project: go mod tidy
+    ```
 
-### Daily Development
-```bash
-# Example: Commands for common daily tasks (e.g., start dev server, run tests, lint, format)
-# e.g., for a Node.js project: npm run dev, npm test, npm run lint
-# e.g., for a Go project: go run main.go, go test ./..., go fmt ./...
-```
+    ### Daily Development
+    ```bash
+    # Example: Commands for common daily tasks (e.g., start dev server, run tests, lint, format)
+    # e.g., for a Node.js project: pnpm run dev, pnpm test, pnpm run lint
+    # e.g., for a Go project: go run main.go, go test ./..., go fmt ./...
+    ```
 
-### Before Committing
-```bash
-# Example: Commands to run all pre-commit checks (e.g., format, lint, type check, run tests)
-# e.g., for a Node.js project: npm run check
-# e.g., for a Go project: make check (if a Makefile exists)
-```
+    ### Before Committing
+    ```bash
+    # Example: Commands to run all pre-commit checks (e.g., format, lint, type check, run tests)
+    # e.g., for a Node.js project: pnpm run check
+    # e.g., for a Go project: make check (if a Makefile exists)
+    ```
 
 ## Testing Requirements
 

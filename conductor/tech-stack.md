@@ -19,7 +19,7 @@
 
 ## Development Tools
 - **Build Tool:** Vite
-- **Package Manager:** npm
+- **Package Manager:** pnpm
 - **Icons:** Lucide React (clean, consistent icons that fit the "Modern & Minimalist" guidelines)
 - **API Communication:** Axios
 
