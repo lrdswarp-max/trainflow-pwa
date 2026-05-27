@@ -9,5 +9,5 @@ This file tracks all major tracks for the project. Each track has its own detail
 
 ---
 
-- [ ] **Track: Workout Player & Exercise Execution**
+- [x] **Track: Workout Player & Exercise Execution**
   *Link: [./tracks/workout_player_20260527/](./tracks/workout_player_20260527/)*
