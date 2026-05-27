@@ -36,7 +36,7 @@
 ## Phase 3: Core UI & Connectivity
 
 ### Task: Student Home & Offline Status
-- [ ] **Task: Implement Connectivity Monitoring (Frontend)**
+- [~] **Task: Implement Connectivity Monitoring (Frontend)**
     - [ ] Write tests for online/offline state transitions
     - [ ] Implement "Amber Banner" status indicator
     - [ ] Integrate with application layout
