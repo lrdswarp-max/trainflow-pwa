@@ -33,12 +33,23 @@ export function useWorkoutPlayer(workout: Workout) {
     setCurrentSetIndex(prev => prev + 1);
   }, []);
 
+  const nextExercise = useCallback(() => {
+    if (currentExerciseIndex < workout.exercises.length - 1) {
+      setCurrentExerciseIndex(prev => prev + 1);
+      setCurrentSetIndex(0);
+      setStatus('active');
+    } else {
+      setStatus('completed');
+    }
+  }, [currentExerciseIndex, workout.exercises.length]);
+
   return {
     currentExerciseIndex,
     currentSetIndex,
     status,
     currentExercise,
     logSet,
-    skipRest
+    skipRest,
+    nextExercise
   };
 }
