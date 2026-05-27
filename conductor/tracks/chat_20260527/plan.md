@@ -1,8 +1,8 @@
 # Implementation Plan: Chat
 
 ## Phase 1: Database & Offline Queue Infrastructure
-- [ ] Task: Extend the `db.ts` schema to include `messages` and `pending_messages` (offline queue).
-- [ ] Task: Implement a `useChatSync` hook that checks network status and flushes pending messages when online.
+- [x] Task: Extend the `db.ts` schema to include `messages` and `pending_messages` (offline queue). 29dfce5
+- [x] Task: Implement a `useChatSync` hook that checks network status and flushes pending messages when online. 29dfce5
 
 ## Phase 2: WebSocket Client Hooks
 - [ ] Task: Create `useChat` hook to manage the WebSocket connection, send messages, and receive real-time updates.
