@@ -17,7 +17,3 @@ This file tracks all major tracks for the project. Each track has its own detail
 - [x] **Track: Trainer Experience: Dashboard & Workout Builder**
   *Link: [./tracks/trainer_experience_20260527/](./tracks/trainer_experience_20260527/)*
 
----
-
-- [ ] **Track: Real-time Chat and Offline Queuing**
-  *Link: [./tracks/chat_20260527/](./tracks/chat_20260527/)*
