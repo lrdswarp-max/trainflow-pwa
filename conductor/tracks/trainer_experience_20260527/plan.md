@@ -1,10 +1,10 @@
 # Implementation Plan: Trainer Experience
 
-## Phase 1: Trainer Authentication & Dashboard Layout
-- [ ] Task: Add a subtle "I'm a personal trainer" link to the existing `Login` screen.
-- [ ] Task: Create `/trainer/dashboard` route.
-- [ ] Task: Implement the `TrainerDashboard` layout (sidebar navigation or top bar for Students, Workouts, Messages).
-- [ ] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
+## Phase 1: Trainer Authentication & Dashboard Layout [checkpoint: 712dc4d]
+- [x] Task: Add a subtle "I'm a personal trainer" link to the existing `Login` screen.
+- [x] Task: Create `/trainer/dashboard` route.
+- [x] Task: Implement the `TrainerDashboard` layout (sidebar navigation or top bar for Students, Workouts, Messages).
+- [x] Task: Conductor - User Manual Verification 'Phase 1' (Protocol in workflow.md)
 
 ## Phase 2: Student Management & Onboarding
 - [ ] Task: Create the "Students List" view inside the dashboard.
