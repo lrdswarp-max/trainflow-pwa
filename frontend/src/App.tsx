@@ -4,6 +4,8 @@ import { Login } from './pages/Login';
 import { HomeView } from './pages/Home';
 import { NetworkBanner } from './components/NetworkBanner';
 import { Dashboard } from './pages/trainer/Dashboard';
+import { StudentsList } from './pages/trainer/StudentsList';
+import { WorkoutBuilder } from './pages/trainer/WorkoutBuilder';
 import './App.css';
 
 const queryClient = new QueryClient();
@@ -19,6 +21,8 @@ export function App() {
             <Route path="/" element={<Navigate to="/login" replace />} />
             <Route path="/home" element={<HomeView />} />
             <Route path="/trainer/dashboard" element={<Dashboard />} />
+            <Route path="/trainer/students" element={<StudentsList />} />
+            <Route path="/trainer/workouts" element={<WorkoutBuilder />} />
           </Routes>
         </Router>
       </div>
