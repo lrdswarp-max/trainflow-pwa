@@ -7,9 +7,9 @@
     - [ ] Setup Vite project with React and TypeScript
     - [ ] Install and configure Tailwind CSS and Shadcn UI
     - [ ] Configure `vite-plugin-pwa` for manifest and service worker
-- [ ] **Task: Initialize Backend (FastAPI)**
-    - [ ] Setup FastAPI project structure
-    - [ ] Configure Uvicorn and basic environment variables
+- [x] **Task: Initialize Backend (FastAPI)** [49788db]
+    - [x] Setup FastAPI project structure
+    - [x] Configure Uvicorn and basic environment variables
 - [ ] **Task: Setup Offline Storage (Dexie.js)**
     - [ ] Install Dexie.js
     - [ ] Define initial database schema (Users, Workouts)
