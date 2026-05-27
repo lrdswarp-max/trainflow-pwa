@@ -33,7 +33,7 @@
     - [x] Handle magic link redirection and token storage
 - [x] **Task: Conductor - User Manual Verification 'Phase 2: Authentication & Role Management' (Protocol in workflow.md)** [cf9da0d]
 
-## Phase 3: Core UI & Connectivity
+## Phase 3: Core UI & Connectivity [checkpoint: 0992d63]
 
 ### Task: Student Home & Offline Status
 - [x] **Task: Implement Connectivity Monitoring (Frontend)** [81a1694]
@@ -44,4 +44,4 @@
     - [x] Write tests for home screen data loading (offline-first)
     - [x] Implement Today's Workout CTA and Recent Sessions list
     - [x] Setup basic navigation (Home, Workout, Chat, Profile)
-- [ ] **Task: Conductor - User Manual Verification 'Phase 3: Core UI & Connectivity' (Protocol in workflow.md)**
+- [x] **Task: Conductor - User Manual Verification 'Phase 3: Core UI & Connectivity' (Protocol in workflow.md)** [0992d63]
