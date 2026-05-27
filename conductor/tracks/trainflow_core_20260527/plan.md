@@ -1,6 +1,6 @@
 # Implementation Plan: TrainFlow Core
 
-## Phase 1: Project Scaffolding & Foundation
+## Phase 1: Project Scaffolding & Foundation [checkpoint: 309702c]
 
 ### Task: Project Environment Setup
 - [x] **Task: Initialize Frontend (React + Vite + TypeScript)** (Manual config due to npm issues) [058d768]
@@ -14,7 +14,7 @@
     - [x] Install Dexie.js
     - [x] Define initial database schema (Users, Workouts)
     - [x] Implement database initialization and health check
-- [ ] **Task: Conductor - User Manual Verification 'Phase 1: Project Scaffolding & Foundation' (Protocol in workflow.md)**
+- [x] **Task: Conductor - User Manual Verification 'Phase 1: Project Scaffolding & Foundation' (Protocol in workflow.md)** [309702c]
 
 ## Phase 2: Authentication & Role Management
 
