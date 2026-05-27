@@ -7,6 +7,7 @@ import { Dashboard } from './pages/trainer/Dashboard';
 import { StudentsList } from './pages/trainer/StudentsList';
 import { WorkoutBuilder } from './pages/trainer/WorkoutBuilder';
 import Chat from './pages/Chat';
+import Profile from './pages/Profile';
 import './App.css';
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ export function App() {
             <Route path="/trainer/students" element={<StudentsList />} />
             <Route path="/trainer/workouts" element={<WorkoutBuilder />} />
             <Route path="/chat" element={<Chat />} />
+            <Route path="/profile" element={<Profile />} />
           </Routes>
         </Router>
       </div>

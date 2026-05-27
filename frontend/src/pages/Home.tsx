@@ -1,5 +1,6 @@
 import React from 'react';
 import { Play, Clock, Calendar, MessageSquare, User, Home } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export function HomeView() {
   // Mock data for now, will be connected to Dexie.js in future tasks
@@ -63,22 +64,22 @@ export function HomeView() {
 
       {/* Bottom Navigation */}
       <nav className="fixed bottom-0 left-0 right-0 bg-[#242B4D]/80 backdrop-blur-xl border-t border-white/10 px-6 py-4 flex justify-between items-center z-50">
-        <button className="flex flex-col items-center gap-1 text-emerald-400">
+        <Link to="/home" className="flex flex-col items-center gap-1 text-emerald-400">
           <Home className="w-6 h-6" />
           <span className="text-[10px] font-bold uppercase tracking-tighter">Home</span>
-        </button>
+        </Link>
         <button className="flex flex-col items-center gap-1 text-white/40">
           <Calendar className="w-6 h-6" />
           <span className="text-[10px] font-bold uppercase tracking-tighter">Workouts</span>
         </button>
-        <button className="flex flex-col items-center gap-1 text-white/40">
+        <Link to="/chat" className="flex flex-col items-center gap-1 text-white/40 hover:text-emerald-400 transition-colors">
           <MessageSquare className="w-6 h-6" />
           <span className="text-[10px] font-bold uppercase tracking-tighter">Chat</span>
-        </button>
-        <button className="flex flex-col items-center gap-1 text-white/40">
+        </Link>
+        <Link to="/profile" className="flex flex-col items-center gap-1 text-white/40 hover:text-emerald-400 transition-colors">
           <User className="w-6 h-6" />
           <span className="text-[10px] font-bold uppercase tracking-tighter">Profile</span>
-        </button>
+        </Link>
       </nav>
     </div>
   );
